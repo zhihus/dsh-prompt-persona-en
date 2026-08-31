@@ -3,6 +3,8 @@
 [![license](https://img.shields.io/badge/license-MIT-6758d4.svg)](./LICENSE)
 [![topic](https://img.shields.io/badge/topic-dsh--plugin-6758d4.svg)](https://github.com/topics/dsh-plugin)
 
+**English** · [Русский](./README.ru.md) · [中文](./README.zh.md)
+
 A **DeepSeek Harness (DSH) plugin**: visually edit the system prompt (`deployment:persona`) from the Web Settings page and preview changes live. This is **method 1 — edit the deployment persona** for adding a system prompt to the Harness.
 
 > In the Harness system prompt assembly model, `deployment:persona` is the only section written by the config/deployment author (order `0`). This plugin takes over that section and turns it into content that is directly editable, previewable and persistent from the Settings page — no changes to the Harness itself, no hand-written `cordis.patch.yml`.
@@ -197,6 +199,7 @@ dsh-prompt-persona/
 │   ├── web.js            # HTTP backend (snapshot / preview / save)
 │   └── client.js         # browser settings UI (CommonJS + window.__ModuleLoader__)
 ├── README.md
+├── README.ru.md
 ├── README.zh.md
 └── LICENSE
 ```

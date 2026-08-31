@@ -3,6 +3,8 @@
 [![license](https://img.shields.io/badge/license-MIT-6758d4.svg)](./LICENSE)
 [![topic](https://img.shields.io/badge/topic-dsh--plugin-6758d4.svg)](https://github.com/topics/dsh-plugin)
 
+[English](./README.md) · [Русский](./README.ru.md) · **中文**
+
 一个 **DeepSeek Harness（DSH）插件**：在 Web 设置页里可视化编辑系统提示词（`deployment:persona`），并实时预览改动效果。即「给 Harness 加系统提示词」的**方法 1 —— 改部署 persona**。
 
 > 在 Harness 的系统提示词组装模型里，`deployment:persona` 是唯一一段「由配置/部署作者撰写」的片段（order `0`）。本插件接管这段片段，把它变成设置页里可直接编辑、可预览、可持久化的内容，而无需改动 Harness 本体或手写 `cordis.patch.yml`。
@@ -197,6 +199,7 @@ dsh-prompt-persona/
 │   ├── web.js            # HTTP 后端（snapshot / preview / save）
 │   └── client.js         # 浏览器设置 UI（CommonJS + window.__ModuleLoader__）
 ├── README.md
+├── README.ru.md
 ├── README.zh.md
 └── LICENSE
 ```
