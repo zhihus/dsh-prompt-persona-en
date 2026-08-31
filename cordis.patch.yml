@@ -1,0 +1,6 @@
+# dsh-prompt-persona bundle patch: mounts the plugin into the profile's layer stack.
+# Runtime defaults live at the plugin config boundary; users can override them in their
+# own profile cordis.patch.yml using the same id (though the Settings page usually suffices).
+- insert:
+    - id: prompt-persona
+      name: '@xilin3/dsh-prompt-persona'
